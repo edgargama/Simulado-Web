@@ -19,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className="relative flex flex-col justify-center items-center">
           <p className="text-2xl font-bold text-center">
-            Simulado 2 Bim
+            Simulado 2 Bimestre
           </p>
         </div>
 
@@ -32,9 +32,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Login <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Entre na tela de login para acessar o sistema.
-            </p>
+            
           </Link>
 
           <Link
@@ -45,10 +43,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Registro <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Ainda não tem uma conta? Acesse e registre-se agora
-              mesmo!
-            </p>
+            
           </Link>
 
           <Link
@@ -59,9 +54,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Recuperação de senha <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Esqueceu sua senha? Acesse e recupere sua senha
-            </p>
+            
           </Link>
 
           <Link
@@ -73,9 +66,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Painel Principal <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Acesse para analisar os dados sobre algo
-            </p>
+           
           </Link>
         </div>
       </main>
